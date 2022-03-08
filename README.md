@@ -1,9 +1,9 @@
-[![CircleCI](https://circleci.com/gh/giantswarm/{APP-NAME}-app.svg?style=shield)](https://circleci.com/gh/giantswarm/{APP-NAME}-app)
+[![CircleCI](https://circleci.com/gh/giantswarm/prometheus-pushgateway-app.svg?style=shield)](https://circleci.com/gh/giantswarm/prometheus-pushgateway-app)
 
-# {APP-NAME} chart
+# prometheus-pushgateway chart
 
-Giant Swarm offers a {APP-NAME} App which can be installed in workload clusters.
-Here we define the {APP-NAME} chart with its templates and default configuration.
+Giant Swarm offers a prometheus-pushgateway App which can be installed in workload clusters.
+Here we define the prometheus-pushgateway chart with its templates and default configuration.
 
 **What is this app?**
 
@@ -64,4 +64,4 @@ Not following these limitations will most likely result in a broken deployment.
 
 ## Credit
 
-- {APP HELM REPOSITORY}
+- https://github.com/prometheus-community/helm-charts/blob/main/charts/prometheus-pushgateway
