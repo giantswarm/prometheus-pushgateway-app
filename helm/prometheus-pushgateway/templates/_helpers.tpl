@@ -51,6 +51,7 @@ Create default labels
 {{- $labelApp := include "prometheus-pushgateway.name" $ -}}
 {{- $labels := dict "app" $labelApp "chart" $labelChart "release" .Release.Name "heritage" .Release.Service -}}
 {{ merge .extraLabels $labels | toYaml | indent 4 }}
+    application.giantswarm.io/team: {{ index .Chart.Annotations "application.giantswarm.io/team" | default "atlas" | quote }}
 {{- end -}}
 
 {{/*
