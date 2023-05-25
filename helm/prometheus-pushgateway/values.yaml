@@ -10,7 +10,7 @@ fullnameOverride: ""
 
 image:
   repository: quay.io/giantswarm/pushgateway
-  tag: v1.5.1
+  tag: v1.6.0
   pullPolicy: IfNotPresent
 
 # Optional pod imagePullSecrets
