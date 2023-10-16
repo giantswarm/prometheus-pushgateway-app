@@ -4,6 +4,12 @@ This chart bootstraps a prometheus [pushgateway](http://github.com/prometheus/pu
 
 An optional prometheus `ServiceMonitor` can be enabled, should you wish to use this gateway with a [Prometheus Operator](https://github.com/coreos/prometheus-operator).
 
+## ⛔️DEPRECATED prometheus-pushgateway-app chart
+
+This is repository is no longer actively maintained or updated.
+
+Instead we recommed using the [upstream chart](https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-pushgateway)
+
 ## Get Repo Info
 
 ```console
