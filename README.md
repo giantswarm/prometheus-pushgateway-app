@@ -5,11 +5,11 @@
 Giant Swarm offers a prometheus-pushgateway App which can be installed in workload clusters.
 Here we define the prometheus-pushgateway chart with its templates and default configuration.
 
-**What is this app?**
+## ⛔️DEPRECATED prometheus-pushgateway-app chart
 
-**Why did we add it?**
+This is repository is no longer actively maintained or updated.
 
-**Who can use it?**
+Instead we recommed using the [upstream chart](https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-pushgateway)
 
 ## Installing
 
